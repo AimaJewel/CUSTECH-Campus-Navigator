@@ -1119,10 +1119,10 @@ export const pathEdges: PathEdge[] = [
 
   // ── Hostels ────────────────────────────────────────────────────────────
   // male-hostel: at (460,800) → horizontal stub west to g400_800
-  walkNA("ent-male-hostel", g(GX.mw, GY.s)),
+  walk("ent-male-hostel", g(GX.mw, GY.s)),
 
   // female-hostel: at (975,650) → horizontal stub east to g900_650
-  walkNA("ent-female-hostel", g(GX.mc, GY.ms)),
+  walk("ent-female-hostel", g(GX.mc, GY.ms)),
 
   // ── Facilities ─────────────────────────────────────────────────────────
   // audi: at (450,500) → horizontal stub west to g400_500
