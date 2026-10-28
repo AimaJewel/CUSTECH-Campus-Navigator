@@ -117,18 +117,6 @@ function RouteStatsPanel({
 }) {
   const stats = useMemo(() => getRouteStats(path, edges), [path, edges]);
 
-  console.log("UPDATED ROUTE STATS:", stats);
-  console.log(
-    "ROUTE EDGES:",
-    edges.map((edge) => ({
-      from: edge.from,
-      to: edge.to,
-      type: edge.type,
-      accessible: edge.accessible,
-      shaded: edge.shaded,
-      distance: edge.distance,
-    })),
-  );
 
   return (
     <motion.div
